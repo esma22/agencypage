@@ -18,7 +18,7 @@ header .overlay {
 body {
   font-family: ar-font;
   direction: rtl;
-  margin-left: -9px;
+  overflow-x: hidden;
 }
 
 nav.navbar ul.navbar-nav {
@@ -516,6 +516,7 @@ footer .copyright p {
   section.contacts .cmxform {
     width: 100%;
   }
+
 }
 
 @media (max-width: 1097px) {
@@ -552,4 +553,5 @@ footer .copyright p {
   section.gallery .work-gallery .overlay-gallery img {
     width: 50%;
   }
+  
 }
